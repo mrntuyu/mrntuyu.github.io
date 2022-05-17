@@ -6,13 +6,19 @@
   </head>
   <body>
 
+    <input id="int1" type="text" name=""value="">
+    <input id="int2" type="text" name=""value="">
+    <button onclick="keisan()" type="button" name="button">計算する</button>
     <script type="text/javascript">
-      var　prompt_a=prompt("みちをあけろ！")；
-      var prompt_b=prompt("にこめ")；
+    function keisan(){
+
+      var element1=document.getElementById('int1');
+      var element2=document.getElementById('int2');
 
       var result=parseInt(prompt_a)+parseInt(prompt_b);
 
       alert(result);
+    }
     </script>
   </body>
 </html>
